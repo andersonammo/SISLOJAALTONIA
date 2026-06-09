@@ -1,10 +1,10 @@
-const CACHE_NAME = 'perobal-v2'; // Mudamos para v2 para forçar a atualização!
+const CACHE_NAME = 'altonia-v2'; // Mudamos para v2 para forçar a atualização!
 
 // Arquivos essenciais para o aplicativo funcionar offline
 const urlsToCache = [
-  '/perobal/',
-  '/perobal/index.html',
-  '/perobal/manifest.json'
+  '/altonia/',
+  '/altonia/index.html',
+  '/altonia/manifest.json'
 ];
 
 self.addEventListener('install', event => {
